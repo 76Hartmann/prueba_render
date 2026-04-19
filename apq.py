@@ -93,4 +93,4 @@ def eliminar_usuario(id):
     return jsonify({"mensaje": f"Usuario con ID {id} eliminado"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
